@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<title>Lab2</title>
+<style>
+    #user {
+     width: 800px; /* Ширина поля в пикселах */
+     height: 800px;
+    } 
+    .margin-p{ margin-left:84px; }
+    .margin-p2{ margin-left:55px; }
+    .margin-p3{ margin-left:85px; }
+    .margin-p4{ margin-left:72px; }
+    .margin-p5{ margin-left:300px; }
+   </style>
+<form action="#" class="form">
+	<div>
+        <p>
+            <small>ID Number:</small>
+        </p>    
+            <input type="text" name="number" placeholder="" required size = "15"/>
+    </div>
+
+	<div>
+        <p>
+            <small>Legal name:</small>
+        </p>  
+        <input type="text" name="name" placeholder="" size="54" />
+    </div>
+
+	<div>
+        <p>
+            <small>Address 1:</small>
+        </p> 
+        <input type="text" name="adres1" placeholder="" size="54" />
+    </div>
+
+	<div>
+        <p>
+            <small>Address 2:</small>
+        </p> 
+        <input type="text" name="adres2" placeholder="" size="54" />
+    </div>
+
+    <div>
+        <p>
+            <small>City:</small> 
+            <small class="margin-p">State:</small>
+            <small class="margin-p2">Zip:</small>
+            <small class="margin-p3">Country:</small>
+        </p> 
+        <input type="text" name="city" placeholder="" size="10" />
+        <input type="text" name="state" placeholder="" size="7" />
+        <input type="text" name="zip" placeholder="" size="10" />
+        <select name="country">
+             <option value="r1" >United States</option>
+        </select>
+    </div>
+
+    <div>
+        <p>
+            <small>Phone:</small> 
+            <small class="margin-p4">Email::</small>
+        </p> 
+        <input type="text" name="phone" placeholder="" size="10"  />
+        <input type="email" name="email" placeholder="" size="38" />
+    </div>
+
+
+	<div>
+        <p>
+            <button type="submit" class="margin-p5">Reset</button>
+            <button type="submit">Sumbit</button>
+        </p>
+    </div>
+
+</form>
+</html>
